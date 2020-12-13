@@ -1,0 +1,46 @@
+img.banner-image {
+    height: 350px;
+    width: 1440px;
+}
+.container {
+    width: 100%;
+    display: flex;
+}
+.left-container {
+    width: 70%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.right-container {
+    width: 28%;
+    text-align: center;
+    border: 1px solid #ede4e4;
+    margin-left: 15px;
+    height: fit-content;
+    border-bottom: none;
+}
+.heading-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: powderblue;
+}
+.heading-news h4 {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    text-align: center;
+}
+.heading-news marquee{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.schemes-container {
+    margin: 15px;
+    border: 1px solid #aba5a5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

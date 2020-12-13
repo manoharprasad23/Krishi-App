@@ -1,0 +1,18 @@
+.relatedTopicHeader {
+    padding: 10px 0;
+    background-color: powderblue;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.relatedLinks {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+    background-color: aliceblue;
+}
+
+.relatedLinks a {
+    text-decoration: none;
+}
