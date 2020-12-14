@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import './About.css';
 
 function About() {
     return (
         <div>
-            This is about page...
+            <p className="temporary-remove-it-later">This is about page...</p>
+            <p className="temporary-remove-it-later">This is about page...</p>
+            <p className="temporary-remove-it-later">This is about page...</p>
+            <p className="temporary-remove-it-later">This is about page...</p>
+            <p className="temporary-remove-it-later">This is about page...</p>
+            <p className="temporary-remove-it-later">This is about page...</p>
         </div>
     )
 }
