@@ -5,9 +5,9 @@ export const headerData = [
 ];
 
 // export const bannerImageUrl = "https://pacinst.org/wp-content/uploads/2020/01/cornfield-compressed.jpg";
-// export const bannerImageUrl = "https://www.pymnts.com/wp-content/uploads/2019/07/farm-big-bank-lending.jpg";
+export const bannerImageUrl = "https://www.pymnts.com/wp-content/uploads/2019/07/farm-big-bank-lending.jpg";
 
-export const bannerImageUrl = "https://www.k-line.net.au/wordpress/wp-content/uploads/2015/03/Web-Banner-for-Homepage-3_1-2.png"
+// export const bannerImageUrl = "https://www.k-line.net.au/wordpress/wp-content/uploads/2015/03/Web-Banner-for-Homepage-3_1-2.png"
 
 export const schemeData = {
     headingNews: "All registration will be accepted between 9am to 6pm",

@@ -1,6 +1,6 @@
 img.banner-image {
     height: 350px;
-    width: 1440px;
+    width: 100%;
 }
 .container {
     width: 100%;
@@ -44,3 +44,25 @@ img.banner-image {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 600px) {
+    .left-container, .scheme {
+        width: 100%;
+    }
+    .left-container {
+        border: none;
+    }
+    .right-container {
+        width: 92%;
+        margin-bottom: 20px;
+    }
+    .scheme {
+        padding-bottom: 15px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .heading-news h4, .heading-news marquee {
+      width: 90%;
+    }
+  }

@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 303px;
+    width: 31%;
 }
 .scheme-name {
     padding: 10px 0;
@@ -13,10 +13,10 @@
     width: 100%;
 }
 .scheme-data {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .scheme-total {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     text-align: center;
     color: coral;
 }
@@ -51,9 +51,9 @@
     border-top-color: #1b435e;
     background: #1b435e;
 }
-/* button {
-    padding: 5px 10px;
-    background-color: aliceblue;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-} */
+
+@media only screen and (max-width: 600px) {
+    .scheme {
+        width: 100%;
+    }
+}
