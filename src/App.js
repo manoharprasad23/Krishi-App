@@ -1,11 +1,5 @@
 import React from 'react';
 import './App.css';
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route,
-//   Link
-// } from "react-router-dom";
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 
 import Header from './Components/Header/Header';
@@ -13,17 +7,22 @@ import Nav from './Components/Nav/Nav';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
+import SideBar from './Components/Sidebar/sidebar';
 
 function App() {
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const breakpoint = 620;
+
+  React.useEffect(() => {
+    window.addEventListener("resize", () => setWidth(window.innerWidth));
+  }, []);
+
   return (
-    <div className="App">
+    <div className="App" id="App">
         <BrowserRouter>
-          <header className="App-header">
-            <div className="logo">
-                <img src="https://pacinst.org/wp-content/uploads/2018/08/logo-copy.png" alt="logo" />
-            </div>
-            <Nav/>
-            </header>
+            {
+              width < breakpoint ? <SideBar className="mobileHeader" /> : <Header />
+            }
             <div className="content">
                 <Switch>
                   <Route exact path="/" component={Home}/>

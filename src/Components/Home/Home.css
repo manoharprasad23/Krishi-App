@@ -65,4 +65,17 @@ img.banner-image {
     .heading-news h4, .heading-news marquee {
       width: 90%;
     }
+    .banner-image {
+        background-color: black;
+        width: 100%;
+        height: 450px;
+        position: relative;
+        top: -100px;
+    }
+    img.banner-image {
+        margin-top: 200px;
+    }
+    .container {
+        margin-top: -95px
+    }
   }

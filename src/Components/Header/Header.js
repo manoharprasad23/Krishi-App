@@ -9,7 +9,11 @@ import Contact from '../Contact/Contact';
 
 function Header() {
     return (
-        <div className="header">
+        <div className="App-header">
+        <div className="logo">
+                <img src="https://pacinst.org/wp-content/uploads/2018/08/logo-copy.png" alt="logo" />
+            </div>
+            <Nav/>
         </div>
     )
 }
